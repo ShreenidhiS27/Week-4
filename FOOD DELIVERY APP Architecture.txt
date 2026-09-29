@@ -1,0 +1,65 @@
+FOOD DELIVERY APP
+
+Create a modern and simple food delivery website/app called “Food Delivery App”.
+
+The website should have these pages:
+
+Home
+Restaurants
+Food Details
+Cart
+Order History
+Food Tracking
+About Us
+Contact
+Login / Sign Up
+
+The app should allow users to explore restaurants, search for food, view food details, add items to cart, place orders, and track their orders.
+
+Use a fresh, attractive, and friendly visual style with relevant food and restaurant images, clear navigation, readable fonts, proper alignment, and responsive design for desktop and mobile.
+
+ICEPOT
+
+FOOD DELIVERY APP
+INSTRUCTIONS
+
+* Create a simple and attractive "Food Delivery App".
+* Add Home, Restaurants, Food Details, Cart, Orders, Tracking, About, Contact, and Login/Sign Up pages.
+* Keep the navigation simple and smooth.
+* Use attractive and relevant food images.
+* Use only HTML and CSS for the frontend.
+* Keep the layout clean, modern, and easy to understand.
+* [STRICT] DO NOT HALLUCINATE.
+
+CONTEXT
+
+* App name should be displayed at the top-left.
+* Add a search bar at the top.
+* Show different food categories.
+* Display restaurants with images, ratings, prices, and delivery time.
+* Add Order Now and Add to Cart buttons.
+* Show an order confirmation message after placing an order.
+* Add order history and food tracking.
+* Add Login/Sign Up at the top-right.
+* Add a simple footer.
+* Use proper spacing, fonts, images, and alignment.
+
+PERSONA
+
+Act as a UI/UX designer with 10+ years of experience in designing food delivery websites.
+
+OUTPUT
+
+Create a professional, attractive, responsive, and user-friendly frontend with all pages properly connected.
+
+QUESTION PROCESS
+
+Ask me 20 questions before creating the website.
+
+* Ask one question at a time.
+* Give 4 options for each question.
+* Wait for my answer before asking the next question.
+* If I don't understand, explain the question.
+* If I don't know, help me choose.
+* I can skip any question.
+* After completing all 20 questions, create the final HTML+CSS frontend design.

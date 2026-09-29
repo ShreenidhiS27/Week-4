@@ -1,0 +1,577 @@
+Phase-by-Phase Development Procedure
+
+Phase 1 — Project Planning
+
+Goal: Define the complete scope before coding.
+
+Tasks:
+
+1. Finalize the app name: **ICEPOT**
+2. Define the target users.
+3. Confirm the Modern & Minimal design.
+4. Finalize blue as the primary color.
+5. List all required pages.
+6. Define the main user journey.
+7. Decide the responsive breakpoints.
+8. Prepare the required food and restaurant images.
+
+Output:
+
+```text
+Project Requirements
+Design Direction
+Page List
+User Flow
+Asset List
+```
+
+Phase 2 — Project Setup
+
+Goal: Create the basic project structure.
+
+```text
+ICEPOT/
+│
+├── index.html
+├── pages/
+├── css/
+├── images/
+└── README.md
+```
+
+Tasks:
+
+1. Create the main project folder.
+2. Create `index.html`.
+3. Create the `pages` folder.
+4. Create the `css` folder.
+5. Create image subfolders.
+6. Connect CSS files to the HTML pages.
+
+Output:
+
+A clean, organized frontend project structure.
+
+Phase 3 — Design System
+
+Goal: Establish consistent visual styling.
+
+Define:
+
+* Primary blue
+* Background colors
+* Text colors
+* Border colors
+* Font sizes
+* Heading styles
+* Button styles
+* Card styles
+* Spacing
+* Border radius
+
+Example:
+
+```text
+Primary Color → Blue
+Background → White / Light Gray
+Headings → Bold
+Body → Clean Sans-Serif
+Buttons → Blue Outline
+Cards → Rounded + Subtle Border
+```
+
+Output:
+
+A consistent ICEPOT visual language.
+
+
+Phase 4 — Header & Navigation
+
+Goal: Build the common navigation used throughout the website.
+
+Create:
+
+```text
+ICEPOT | Search | Cart | Login/Sign Up
+```
+
+Desktop:
+
+```text
+Logo → Search → Cart → Login/Sign Up
+```
+
+Mobile:
+
+```text
+ICEPOT → Search → Cart → ☰
+```
+
+Tasks:
+
+1. Create the header.
+2. Add ICEPOT logo/text.
+3. Add search control.
+4. Add cart.
+5. Add Login/Sign Up.
+6. Add mobile hamburger menu.
+7. Add navigation links.
+
+Output:
+
+Responsive header/navigation.
+
+
+Phase 5 — Home Page
+
+Goal: Create the main food discovery experience.
+
+Build in this order:
+
+```text
+Header
+   ↓
+Hero / Featured Restaurant
+   ↓
+Search
+   ↓
+Food Categories
+   ↓
+Restaurant Section
+   ↓
+Restaurant Cards
+   ↓
+Footer
+```
+
+Restaurant cards should contain:
+
+* Image
+* Restaurant name
+* Cuisine
+* Rating
+* Price
+* Delivery time
+* Order Now
+* Add to Cart
+
+Output:
+
+Complete responsive homepage.
+
+
+Phase 6 — Food Categories
+
+Goal: Make food discovery simple.
+
+Create pill-style categories such as:
+
+```text
+[Pizza] [Burger] [Biryani] [Noodles] [Desserts]
+```
+
+Tasks:
+
+1. Add category containers.
+2. Add category names.
+3. Add appropriate food images/icons where needed.
+4. Make categories horizontally scrollable on small screens if required.
+
+Output:
+
+Clean category navigation.
+
+
+Phase 7 — Restaurant Page
+
+Goal: Create a dedicated restaurant browsing page.
+
+Add:
+
+```text
+Search
+   ↓
+Filters
+   ↓
+Restaurant Cards
+```
+
+Filters can visually represent:
+
+* Cuisine
+* Rating
+* Price
+* Delivery time
+
+Output:
+
+Restaurant discovery page.
+
+
+Phase 8 — Food Details Page
+
+Goal: Allow users to inspect a food item before ordering.
+
+Create:
+
+```text
+Food Image
+     +
+Food Information
+     +
+Rating
+     +
+Price
+     +
+Description
+     +
+Quantity
+     +
+Add to Cart / Order Now
+```
+
+Output:
+
+Professional food details interface.
+
+
+Phase 9 — Cart
+
+Goal: Create the checkout-focused cart.
+
+Desktop:
+
+```text
+┌─────────────────────┬──────────────────┐
+│ Cart Items          │ Order Summary    │
+│                     │                  │
+│ Food Item           │ Subtotal         │
+│ Food Item           │ Delivery Fee     │
+│ Food Item           │ Total            │
+│                     │                  │
+│                     │ Checkout         │
+└─────────────────────┴──────────────────┘
+```
+
+Mobile:
+
+```text
+Cart Items
+    ↓
+Order Summary
+    ↓
+Checkout
+```
+
+Output:
+
+Responsive cart page.
+
+
+Phase 10 — Order Confirmation
+
+Goal: Give users clear feedback after an order is placed.
+
+Create a celebration/success screen containing:
+
+```text
+✓ Order Placed Successfully!
+
+Order Number
+Estimated Delivery Time
+
+[Track Order]
+[Continue Shopping]
+```
+
+Output:
+
+Order confirmation page.
+
+> Since this project uses HTML/CSS only, this is a frontend demonstration rather than real order processing.
+
+
+Phase 11 — Order History
+
+Goal: Show previous orders.
+
+Create order cards:
+
+```text
+Restaurant
+Food Items
+Date
+Total
+Status
+
+[Reorder]
+```
+
+Output:
+
+Orders/history page.
+
+
+Phase 12 — Tracking
+
+Goal: Create the food delivery tracking interface.
+
+Create:
+
+```text
+Order Confirmed
+       ↓
+Preparing
+       ↓
+Picked Up
+       ↓
+On the Way
+       ↓
+Delivered
+```
+
+Then add a visual map-style section.
+
+```text
+Restaurant ●────────────● Destination
+```
+
+Output:
+
+Tracking page with timeline and map-style visual.
+
+
+Phase 13 — Login / Sign Up
+
+Goal: Create the authentication interface.
+
+Use tabs:
+
+```text
+┌───────────────┐
+│ Login | Sign Up│
+├───────────────┤
+│ Email         │
+│ Password      │
+│               │
+│ [Continue]    │
+└───────────────┘
+```
+
+Output:
+
+Clean Login/Sign Up page.
+
+> This is only the frontend form because real authentication requires a backend.
+
+
+Phase 14 — About & Contact
+
+Goal: Complete the informational pages.
+
+### About
+
+Include:
+
+* ICEPOT introduction
+* Service description
+* Simple brand information
+
+### Contact
+
+Include:
+
+* Name
+* Email
+* Message
+* Submit button
+* Contact information
+
+Output:
+
+About and Contact pages.
+
+
+Phase 15 — Footer
+
+Goal: Create a consistent footer across the website.
+
+```text
+ICEPOT
+
+Home
+Restaurants
+Orders
+Tracking
+About
+Contact
+Login / Sign Up
+
+© ICEPOT
+```
+
+Output:
+
+Reusable footer design.
+
+
+Phase 16 — Responsive Design
+
+Goal: Make the entire application work on different screen sizes.
+
+Test:
+
+```text
+Mobile
+   ↓
+Tablet
+   ↓
+Laptop
+   ↓
+Desktop
+```
+
+Check:
+
+* Header
+* Navigation
+* Cards
+* Images
+* Search
+* Forms
+* Cart
+* Tracking
+* Footer
+
+Output:
+
+Responsive ICEPOT frontend.
+
+
+Phase 17 — Page Linking
+
+Goal: Connect all pages.
+
+Main flow:
+
+```text
+Home
+ ↓
+Restaurants
+ ↓
+Food Details
+ ↓
+Cart
+ ↓
+Confirmation
+ ↓
+Tracking
+```
+
+Additional navigation:
+
+```text
+Home → Orders
+Home → About
+Home → Contact
+Home → Login
+Orders → Reorder
+```
+
+Output:
+
+Connected multi-page frontend.
+
+
+Phase 18 — UI Testing
+
+Goal: Check the interface for visual and navigation problems.
+
+Test:
+
+* Every navigation link
+* Every button
+* Search interface
+* Restaurant cards
+* Food details
+* Cart
+* Order confirmation
+* Tracking
+* Login
+* Contact
+* Mobile menu
+
+Check for:
+
+```text
+Broken links
+Wrong spacing
+Overflow
+Missing images
+Text alignment
+Mobile layout problems
+```
+
+Output:
+
+A clean and functional frontend prototype.
+
+
+Phase 19 — Final Optimization
+
+Goal: Improve quality before delivery.
+
+Check:
+
+* HTML structure
+* CSS organization
+* Image sizes
+* Responsive behavior
+* Typography
+* Accessibility
+* Consistent colors
+* Consistent spacing
+* Duplicate CSS
+* Unused files
+
+Output:
+
+Clean final project.
+
+
+Phase 20 — Final Delivery
+
+Goal: Package the completed ICEPOT frontend.
+
+Final structure:
+
+```text
+ICEPOT/
+│
+├── index.html
+│
+├── pages/
+│   ├── restaurants.html
+│   ├── food-details.html
+│   ├── cart.html
+│   ├── confirmation.html
+│   ├── orders.html
+│   ├── tracking.html
+│   ├── about.html
+│   ├── contact.html
+│   └── login.html
+│
+├── css/
+│   ├── style.css
+│   ├── components.css
+│   └── responsive.css
+│
+├── images/
+│   ├── restaurants/
+│   ├── foods/
+│   ├── categories/
+│   └── banners/
+│
+└── README.md
+```
+
